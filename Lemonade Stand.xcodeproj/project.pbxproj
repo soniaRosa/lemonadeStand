@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		462066091A375095005849A4 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462066081A375095005849A4 /* Ingredient.swift */; };
+		4620660B1A3751F0005849A4 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4620660A1A3751F0005849A4 /* Price.swift */; };
+		4692BEB41A33A74600AA6131 /* pessosas.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4692BEB31A33A74600AA6131 /* pessosas.jpeg */; };
+		4692BEB61A33AC8C00AA6131 /* lemonada.png in Resources */ = {isa = PBXBuildFile; fileRef = 4692BEB51A33AC8C00AA6131 /* lemonada.png */; };
+		4692BEB81A34870C00AA6131 /* carro2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4692BEB71A34870C00AA6131 /* carro2.jpeg */; };
 		46971EF51A332518001F7DC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46971EF41A332518001F7DC6 /* AppDelegate.swift */; };
 		46971EF71A332518001F7DC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46971EF61A332518001F7DC6 /* ViewController.swift */; };
-		46971EFA1A332518001F7DC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46971EF81A332518001F7DC6 /* Main.storyboard */; };
 		46971EFC1A332518001F7DC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46971EFB1A332518001F7DC6 /* Images.xcassets */; };
 		46971EFF1A332518001F7DC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46971EFD1A332518001F7DC6 /* LaunchScreen.xib */; };
 		46971F0B1A332518001F7DC6 /* Lemonade_StandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46971F0A1A332518001F7DC6 /* Lemonade_StandTests.swift */; };
+		46971F161A332A7F001F7DC6 /* di.png in Resources */ = {isa = PBXBuildFile; fileRef = 46971F151A332A7F001F7DC6 /* di.png */; };
+		46971F2A1A334533001F7DC6 /* liii.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 46971F291A334533001F7DC6 /* liii.jpeg */; };
+		46971F2C1A334671001F7DC6 /* IceCube.png in Resources */ = {isa = PBXBuildFile; fileRef = 46971F2B1A334671001F7DC6 /* IceCube.png */; };
+		46971F2E1A3352FF001F7DC6 /* carro.png in Resources */ = {isa = PBXBuildFile; fileRef = 46971F2D1A3352FF001F7DC6 /* carro.png */; };
+		D2EE22A11AB7012F00B81D4B /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2EE22A01AB7012F00B81D4B /* main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +35,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		462066081A375095005849A4 /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		4620660A1A3751F0005849A4 /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		4692BEB31A33A74600AA6131 /* pessosas.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pessosas.jpeg; sourceTree = "<group>"; };
+		4692BEB51A33AC8C00AA6131 /* lemonada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lemonada.png; sourceTree = "<group>"; };
+		4692BEB71A34870C00AA6131 /* carro2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carro2.jpeg; sourceTree = "<group>"; };
 		46971EEF1A332518001F7DC6 /* Lemonade Stand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lemonade Stand.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46971EF31A332518001F7DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46971EF41A332518001F7DC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46971EF61A332518001F7DC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		46971EF91A332518001F7DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46971EFB1A332518001F7DC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		46971EFE1A332518001F7DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		46971F041A332518001F7DC6 /* Lemonade StandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lemonade StandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46971F091A332518001F7DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46971F0A1A332518001F7DC6 /* Lemonade_StandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lemonade_StandTests.swift; sourceTree = "<group>"; };
+		46971F151A332A7F001F7DC6 /* di.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = di.png; sourceTree = "<group>"; };
+		46971F291A334533001F7DC6 /* liii.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = liii.jpeg; sourceTree = "<group>"; };
+		46971F2B1A334671001F7DC6 /* IceCube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IceCube.png; sourceTree = "<group>"; };
+		46971F2D1A3352FF001F7DC6 /* carro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carro.png; sourceTree = "<group>"; };
+		D2EE22A01AB7012F00B81D4B /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +97,9 @@
 			children = (
 				46971EF41A332518001F7DC6 /* AppDelegate.swift */,
 				46971EF61A332518001F7DC6 /* ViewController.swift */,
-				46971EF81A332518001F7DC6 /* Main.storyboard */,
+				4620660A1A3751F0005849A4 /* Price.swift */,
+				462066081A375095005849A4 /* Ingredient.swift */,
+				D2EE22A01AB7012F00B81D4B /* main.storyboard */,
 				46971EFB1A332518001F7DC6 /* Images.xcassets */,
 				46971EFD1A332518001F7DC6 /* LaunchScreen.xib */,
 				46971EF21A332518001F7DC6 /* Supporting Files */,
@@ -90,6 +110,13 @@
 		46971EF21A332518001F7DC6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4692BEB71A34870C00AA6131 /* carro2.jpeg */,
+				4692BEB51A33AC8C00AA6131 /* lemonada.png */,
+				4692BEB31A33A74600AA6131 /* pessosas.jpeg */,
+				46971F2D1A3352FF001F7DC6 /* carro.png */,
+				46971F2B1A334671001F7DC6 /* IceCube.png */,
+				46971F291A334533001F7DC6 /* liii.jpeg */,
+				46971F151A332A7F001F7DC6 /* di.png */,
 				46971EF31A332518001F7DC6 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +219,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46971EFA1A332518001F7DC6 /* Main.storyboard in Resources */,
+				4692BEB81A34870C00AA6131 /* carro2.jpeg in Resources */,
+				46971F2C1A334671001F7DC6 /* IceCube.png in Resources */,
+				D2EE22A11AB7012F00B81D4B /* main.storyboard in Resources */,
+				46971F2E1A3352FF001F7DC6 /* carro.png in Resources */,
+				46971F2A1A334533001F7DC6 /* liii.jpeg in Resources */,
+				4692BEB41A33A74600AA6131 /* pessosas.jpeg in Resources */,
 				46971EFF1A332518001F7DC6 /* LaunchScreen.xib in Resources */,
+				46971F161A332A7F001F7DC6 /* di.png in Resources */,
+				4692BEB61A33AC8C00AA6131 /* lemonada.png in Resources */,
 				46971EFC1A332518001F7DC6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +247,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				46971EF71A332518001F7DC6 /* ViewController.swift in Sources */,
+				4620660B1A3751F0005849A4 /* Price.swift in Sources */,
 				46971EF51A332518001F7DC6 /* AppDelegate.swift in Sources */,
+				462066091A375095005849A4 /* Ingredient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +272,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		46971EF81A332518001F7DC6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				46971EF91A332518001F7DC6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		46971EFD1A332518001F7DC6 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,6 +369,7 @@
 				INFOPLIST_FILE = "Lemonade Stand/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,6 +380,7 @@
 				INFOPLIST_FILE = "Lemonade Stand/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -407,6 +437,7 @@
 				46971F101A332518001F7DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46971F111A332518001F7DC6 /* Build configuration list for PBXNativeTarget "Lemonade StandTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +446,7 @@
 				46971F131A332518001F7DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
